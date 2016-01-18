@@ -4,8 +4,19 @@ go:
   - 1.5.2
   - tip
 
+sudo: false
+
+branches:
+  only:
+    - master
+
 install:
   - go get github.com/tools/godep
   - godep go build -o bin/warden-agent ./warden-agent/
   - godep go build -o bin/warden-guardian ./warden-guardian/
   - godep go build -o bin/warden-template ./warden-template/
+
+script:
+  - go fmt ./...
+  - go get golang.org/x/tools/cmd/vet
+  - go vet ./...
