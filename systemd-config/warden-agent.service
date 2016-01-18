@@ -1,0 +1,14 @@
+[Unit]
+Description=Warden Guardian
+Documentation=http://git.elenet.me/qi.feng/warden
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=
+ExecStart=/data/go/bin/warden-agent
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
