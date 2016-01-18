@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"git.elenet.me/qi.feng/warden/Godeps/_workspace/src/github.com/fsouza/go-dockerclient/external/github.com/Sirupsen/logrus"
+	"github.com/athlum/warden/Godeps/_workspace/src/github.com/fsouza/go-dockerclient/external/github.com/Sirupsen/logrus"
 )
 
 // exclusion return true if the specified pattern is an exclusion

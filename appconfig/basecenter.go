@@ -3,8 +3,8 @@ package appconfig
 import (
 	"encoding/json"
 	"fmt"
-	"git.elenet.me/qi.feng/warden"
-	"git.elenet.me/qi.feng/warden/utils"
+	"github.com/athlum/warden"
+	"github.com/athlum/warden/utils"
 	docker "github.com/fsouza/go-dockerclient"
 	"strings"
 )

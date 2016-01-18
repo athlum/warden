@@ -8,7 +8,7 @@ import (
 	"regexp"
 	"strings"
 
-	"git.elenet.me/qi.feng/warden/Godeps/_workspace/src/github.com/fsouza/go-dockerclient/external/github.com/docker/docker/pkg/parsers"
+	"github.com/athlum/warden/Godeps/_workspace/src/github.com/fsouza/go-dockerclient/external/github.com/docker/docker/pkg/parsers"
 )
 
 var (

@@ -1,0 +1,10 @@
+language: go
+
+go:
+  - 1.5.2
+  - tip
+
+install:
+  go build -o bin/warden-agent ./warden-agent/
+  go build -o bin/warden-guardian ./warden-guardian/
+  go build -o bin/warden-template ./warden-template/

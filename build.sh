@@ -1,11 +1,11 @@
 #!/bin/bash
 
 target=$1
-GOPATHSRC=$GOPATH/src/git.elenet.me/qi.feng/warden
+GOPATHSRC=$GOPATH/src/github.com/athlum/warden
 
 if [ $(pwd) != $GOPATHSRC ]; then
-   mkdir -p $GOPATH/src/git.elenet.me/
-   mkdir -p $GOPATH/src/git.elenet.me/qi.feng
+   mkdir -p $GOPATH/src/github.com/
+   mkdir -p $GOPATH/src/github.com/athlum
    rm -rf $GOPATHSRC
    ln -sf $(pwd) $GOPATHSRC
    cd $GOPATHSRC

@@ -1,10 +1,10 @@
 package main
 
 import (
-	"git.elenet.me/qi.feng/warden"
-	"git.elenet.me/qi.feng/warden/appconfig"
-	"git.elenet.me/qi.feng/warden/backends"
-	"git.elenet.me/qi.feng/warden/utils"
+	"github.com/athlum/warden"
+	"github.com/athlum/warden/appconfig"
+	"github.com/athlum/warden/backends"
+	"github.com/athlum/warden/utils"
 	"log"
 	"os"
 	"os/signal"

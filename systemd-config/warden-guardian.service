@@ -1,6 +1,6 @@
 [Unit]
 Description=Warden Guardian
-Documentation=http://git.elenet.me/qi.feng/warden
+Documentation=http://github.com/athlum/warden
 After=network.target
 
 [Service]

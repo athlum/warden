@@ -1,5 +1,5 @@
 {
-	"ImportPath": "git.elenet.me/qi.feng/warden",
+	"ImportPath": "github.com/athlum/warden",
 	"GoVersion": "go1.5",
 	"Deps": [
 		{

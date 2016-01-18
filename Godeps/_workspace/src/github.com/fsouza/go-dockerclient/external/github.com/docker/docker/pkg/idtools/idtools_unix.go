@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"git.elenet.me/qi.feng/warden/Godeps/_workspace/src/github.com/fsouza/go-dockerclient/external/github.com/docker/docker/pkg/system"
+	"github.com/athlum/warden/Godeps/_workspace/src/github.com/fsouza/go-dockerclient/external/github.com/docker/docker/pkg/system"
 )
 
 func mkdirAs(path string, mode os.FileMode, ownerUID, ownerGID int, mkAll, chownExisting bool) error {

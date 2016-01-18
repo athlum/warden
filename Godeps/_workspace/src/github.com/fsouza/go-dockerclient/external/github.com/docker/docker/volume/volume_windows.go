@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"strings"
 
-	"git.elenet.me/qi.feng/warden/Godeps/_workspace/src/github.com/fsouza/go-dockerclient/external/github.com/Sirupsen/logrus"
-	derr "git.elenet.me/qi.feng/warden/Godeps/_workspace/src/github.com/fsouza/go-dockerclient/external/github.com/docker/docker/errors"
+	"github.com/athlum/warden/Godeps/_workspace/src/github.com/fsouza/go-dockerclient/external/github.com/Sirupsen/logrus"
+	derr "github.com/athlum/warden/Godeps/_workspace/src/github.com/fsouza/go-dockerclient/external/github.com/docker/docker/errors"
 )
 
 // read-write modes

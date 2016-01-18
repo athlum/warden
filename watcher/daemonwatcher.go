@@ -1,7 +1,7 @@
 package watcher
 
 import (
-	"git.elenet.me/qi.feng/warden/handlers"
+	"github.com/athlum/warden/handlers"
 	docker "github.com/fsouza/go-dockerclient"
 	"log"
 	"time"

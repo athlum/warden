@@ -3,7 +3,7 @@ package appconfig
 import (
 	"errors"
 	"fmt"
-	"git.elenet.me/qi.feng/warden"
+	"github.com/athlum/warden"
 	docker "github.com/fsouza/go-dockerclient"
 	"io/ioutil"
 	"log"

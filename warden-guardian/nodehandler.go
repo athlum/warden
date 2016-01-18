@@ -2,7 +2,7 @@ package main
 
 import (
 	"encoding/json"
-	"git.elenet.me/qi.feng/warden/appconfig"
+	"github.com/athlum/warden/appconfig"
 	"log"
 )
 

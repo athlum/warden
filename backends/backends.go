@@ -1,7 +1,7 @@
 package backends
 
 import (
-	"git.elenet.me/qi.feng/warden/handlers"
+	"github.com/athlum/warden/handlers"
 )
 
 type AppNode struct {

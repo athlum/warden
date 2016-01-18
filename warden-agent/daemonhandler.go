@@ -1,8 +1,8 @@
 package main
 
 import (
-	"git.elenet.me/qi.feng/warden/appconfig"
-	"git.elenet.me/qi.feng/warden/backends"
+	"github.com/athlum/warden/appconfig"
+	"github.com/athlum/warden/backends"
 	docker "github.com/fsouza/go-dockerclient"
 	"log"
 	"time"

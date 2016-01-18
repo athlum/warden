@@ -11,7 +11,7 @@ import (
 	"path"
 	"regexp"
 
-	"git.elenet.me/qi.feng/warden/Godeps/_workspace/src/github.com/fsouza/go-dockerclient/external/github.com/gorilla/context"
+	"github.com/athlum/warden/Godeps/_workspace/src/github.com/fsouza/go-dockerclient/external/github.com/gorilla/context"
 )
 
 // NewRouter returns a new router instance.
