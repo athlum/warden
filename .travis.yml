@@ -5,6 +5,7 @@ go:
   - tip
 
 install:
-  go build -o bin/warden-agent ./warden-agent/
-  go build -o bin/warden-guardian ./warden-guardian/
-  go build -o bin/warden-template ./warden-template/
+  go get github.com/tools/godep
+  godep go build -o bin/warden-agent ./warden-agent/
+  godep go build -o bin/warden-guardian ./warden-guardian/
+  godep go build -o bin/warden-template ./warden-template/
