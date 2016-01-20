@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/athlum/warden/appconfig"
-	"github.com/athlum/warden/backends"
+	"github.com/athlum/warden/warden/appconfig"
+	"github.com/athlum/warden/warden/backends"
 	docker "github.com/fsouza/go-dockerclient"
 	"log"
 	"time"

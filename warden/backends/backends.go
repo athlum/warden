@@ -1,7 +1,7 @@
 package backends
 
 import (
-	"github.com/athlum/warden/handlers"
+	"github.com/athlum/warden/warden/handlers"
 )
 
 type AppNode struct {

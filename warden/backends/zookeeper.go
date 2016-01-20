@@ -3,7 +3,7 @@ package backends
 import (
 	"crypto/md5"
 	"fmt"
-	"github.com/athlum/warden/handlers"
+	"github.com/athlum/warden/warden/handlers"
 	"github.com/samuel/go-zookeeper/zk"
 	"log"
 	"sort"

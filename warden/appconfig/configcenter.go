@@ -3,7 +3,7 @@ package appconfig
 import (
 	"errors"
 	// "fmt"
-	"github.com/athlum/warden"
+	"github.com/athlum/warden/warden"
 	docker "github.com/fsouza/go-dockerclient"
 	"os"
 	"strings"

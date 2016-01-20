@@ -2,7 +2,7 @@ package appconfig
 
 import (
 	"fmt"
-	"github.com/athlum/warden"
+	"github.com/athlum/warden/warden"
 	docker "github.com/fsouza/go-dockerclient"
 	"io/ioutil"
 	"log"

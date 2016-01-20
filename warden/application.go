@@ -3,7 +3,7 @@ package warden
 import (
 	"errors"
 	"fmt"
-	"github.com/athlum/warden/backends"
+	"github.com/athlum/warden/warden/backends"
 	"log"
 	"os/exec"
 	"time"

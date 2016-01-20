@@ -14,7 +14,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/athlum/warden/Godeps/_workspace/src/github.com/fsouza/go-dockerclient/external/github.com/docker/docker/pkg/ioutils"
+	"github.com/fsouza/go-dockerclient/external/github.com/docker/docker/pkg/ioutils"
 )
 
 var (

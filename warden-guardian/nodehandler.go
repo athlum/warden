@@ -2,7 +2,7 @@ package main
 
 import (
 	"encoding/json"
-	"github.com/athlum/warden/appconfig"
+	"github.com/athlum/warden/warden/appconfig"
 	"log"
 )
 

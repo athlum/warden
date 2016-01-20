@@ -3,8 +3,8 @@ package appconfig
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/athlum/warden"
-	"github.com/athlum/warden/utils"
+	"github.com/athlum/warden/warden"
+	"github.com/athlum/warden/warden/utils"
 	docker "github.com/fsouza/go-dockerclient"
 	"strings"
 )

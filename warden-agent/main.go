@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/athlum/warden"
-	"github.com/athlum/warden/appconfig"
-	"github.com/athlum/warden/backends"
-	"github.com/athlum/warden/utils"
-	"github.com/athlum/warden/watcher"
+	"github.com/athlum/warden/warden"
+	"github.com/athlum/warden/warden/appconfig"
+	"github.com/athlum/warden/warden/backends"
+	"github.com/athlum/warden/warden/utils"
+	"github.com/athlum/warden/warden/watcher"
 	"log"
 	"os"
 	"os/signal"
