@@ -16,7 +16,7 @@ const (
 )
 
 var (
-	DefaultZKConnectionTime    = time.Second * 5
+	DefaultZKConnectionTime    = time.Second * 30
 	agentSettings              = AgentConfig{}
 	guardianSettings           = GuardianConfig{}
 	DefaultHealthCheckInterval = 5
