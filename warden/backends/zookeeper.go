@@ -14,7 +14,8 @@ import (
 
 type ZKConn struct {
 	*zk.Conn
-	Auth string
+	Auth      string
+	EventChan <-chan zk.Event
 }
 
 var (
@@ -31,10 +32,10 @@ func ZKClient() ZKConn {
 func NewZKConn(zkHost []string, auth string, timeout time.Duration) error {
 	ZKLock.Lock()
 	defer ZKLock.Unlock()
-	if conn, _, err := zk.Connect(zkHost, timeout); err != nil {
+	if conn, ec, err := zk.Connect(zkHost, timeout); err != nil {
 		return err
 	} else {
-		zkClient = ZKConn{conn, auth}
+		zkClient = ZKConn{conn, auth, ec}
 	}
 
 	if err := zkClient.AddAuth("digest", []byte(auth)); err != nil {
