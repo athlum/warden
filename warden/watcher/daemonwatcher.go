@@ -47,7 +47,7 @@ func (watcher *DaemonWatcher) removeContainerCh(key string) {
 	select {
 	case *watcher.managedContainer[key] <- "quit":
 		log.Printf("Send 'quit' signal to container %s health checker.", key)
-	case <-time.After(time.Microsecond * 100):
+	case <-time.After(time.Second * 60):
 		log.Printf("Health checker for container %s already exited.", key)
 	}
 	delete(watcher.managedContainer, key)
